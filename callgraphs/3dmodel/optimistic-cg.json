@@ -1,0 +1,482 @@
+{
+    "preamble.js@86:2276-2318": [
+        "collect"
+    ],
+    "preamble.js@92:2429-2448": [
+        "NamedNodeList"
+    ],
+    "preamble.js@150:4259-4324": [
+        "collect"
+    ],
+    "transform.js@176:4816-4860": [
+        "transform.js@53:1509-2863"
+    ],
+    "transform.js@177:4879-4927": [
+        "transform.js@53:1509-2863"
+    ],
+    "transform.js@179:4934-4965": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@180:4971-5003": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@181:5009-5041": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@182:5047-5079": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@186:5142-5178": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@191:5253-5287": [
+        "transform.js@109:2872-3595"
+    ],
+    "main.js@111:3092-3126": [
+        "Document_prototype_getElementById"
+    ],
+    "main.js@112:3158-3192": [
+        "Document_prototype_getElementById"
+    ],
+    "preamble.js@188:5286-5304": [
+        "DOMDocument"
+    ],
+    "preamble.js@192:5373-5387": [
+        "HTMLBody"
+    ],
+    "prologue.js@132:3563-3580": [
+        "Array_prototype_shift"
+    ],
+    "preamble.js@115:3267-3282": [
+        "check_id",
+        "check_tag"
+    ],
+    "preamble.js@116:3298-3315": [
+        "Array_prototype_push"
+    ],
+    "preamble.js@118:3339-3381": [
+        "collect"
+    ],
+    "preamble.js@431:11862-11883": [
+        "DOMHTMLElement"
+    ],
+    "transform.js@89:2515-2529": [
+        "Math_cos"
+    ],
+    "transform.js@91:2549-2563": [
+        "Math_sin"
+    ],
+    "transform.js@91:2564-2578": [
+        "Math_sqrt"
+    ],
+    "index.html@5355:115566-115583": [
+        "index.html@1:18-115539"
+    ],
+    "preamble.js@466:12543-12562": [
+        "xhr_orsc_handler"
+    ],
+    "preamble.js@347:9412-9429": [
+        "DOMElement"
+    ],
+    "preamble.js@309:8424-8497": [
+        "collect"
+    ],
+    "main.js@36:817-840": [
+        "Window_prototype_clearInterval"
+    ],
+    "main.js@37:856-890": [
+        "Document_prototype_getElementById"
+    ],
+    "main.js@41:933-956": [
+        "preamble.js@10273"
+    ],
+    "main.js@43:961-988": [
+        "CanvasRenderingContext2D_prototype_clearRect"
+    ],
+    "main.js@47:1000-1034": [
+        "Document_prototype_getElementById"
+    ],
+    "main.js@49:1072-1108": [
+        "design.js@1:0-28997"
+    ],
+    "main.js@50:1112-1168": [
+        "transform.js@159:4421-4738"
+    ],
+    "main.js@51:1172-1361": [
+        "transform.js@139:3921-4111"
+    ],
+    "main.js@52:1365-1429": [
+        "transform.js@139:3921-4111"
+    ],
+    "main.js@54:1439-1473": [
+        "Document_prototype_getElementById"
+    ],
+    "main.js@56:1511-1549": [
+        "design.js@1641:29007-69859"
+    ],
+    "main.js@57:1553-1612": [
+        "transform.js@159:4421-4738"
+    ],
+    "main.js@58:1616-1805": [
+        "transform.js@139:3921-4111"
+    ],
+    "main.js@59:1809-1873": [
+        "transform.js@139:3921-4111"
+    ],
+    "main.js@61:1883-1917": [
+        "Document_prototype_getElementById"
+    ],
+    "main.js@63:1955-1987": [
+        "design.js@3628:69869-93197"
+    ],
+    "main.js@64:1991-2047": [
+        "transform.js@159:4421-4738"
+    ],
+    "main.js@65:2051-2240": [
+        "transform.js@139:3921-4111"
+    ],
+    "main.js@66:2244-2308": [
+        "transform.js@139:3921-4111"
+    ],
+    "main.js@69:2325-2345": [
+        "Window_prototype_setInterval"
+    ],
+    "prologue.js@127:3417-3434": [
+        "Array_prototype_shift"
+    ],
+    "transform.js@151:4185-4261": [
+        "transform.js@124:3600-3754"
+    ],
+    "transform.js@155:4325-4404": [
+        "transform.js@124:3600-3754"
+    ],
+    "transform.js@141:3970-4001": [
+        "transform.js@124:3600-3754"
+    ],
+    "transform.js@145:4065-4099": [
+        "transform.js@124:3600-3754"
+    ],
+    "prologue.js@273:6831-6870": [
+        "Array_prototype_slice",
+        "String_prototype_slice"
+    ],
+    "prologue.js@274:6890-6931": [
+        "Array_prototype_slice",
+        "String_prototype_slice"
+    ],
+    "prologue.js@152:4084-4098": [
+        "Array_prototype_join"
+    ],
+    "preamble.js@100:2795-2827": [
+        "remove"
+    ],
+    "preamble.js@73:1911-1928": [
+        "getIndex"
+    ],
+    "preamble.js@75:1952-1970": [
+        "checkAndIncrease"
+    ],
+    "main.js@9:136-147": [
+        "main.js@1:0-122"
+    ],
+    "transform.js@256:6980-6995": [
+        "Math_sin"
+    ],
+    "transform.js@256:6997-7012": [
+        "Math_cos"
+    ],
+    "transform.js@258:7020-7066": [
+        "transform.js@35:1001-1275"
+    ],
+    "transform.js@259:7072-7117": [
+        "transform.js@44:1284-1498"
+    ],
+    "transform.js@260:7123-7168": [
+        "transform.js@44:1284-1498"
+    ],
+    "transform.js@261:7174-7219": [
+        "transform.js@44:1284-1498"
+    ],
+    "transform.js@265:7282-7331": [
+        "transform.js@44:1284-1498"
+    ],
+    "transform.js@270:7406-7455": [
+        "transform.js@35:1001-1275"
+    ],
+    "preamble.js@402:11134-11155": [
+        "DOMHTMLElement"
+    ],
+    "preamble.js@410:11339-11358": [
+        "NamedNodeList"
+    ],
+    "preamble.js@145:4120-4151": [
+        "DOMHTMLGenericElement"
+    ],
+    "prologue.js@159:4286-4310": [
+        "toLocaleString",
+        "Array_prototype_toLocaleString"
+    ],
+    "prologue.js@159:4271-4312": [
+        "Array_prototype_concat"
+    ],
+    "prologue.js@160:4329-4349": [
+        "Array_prototype_concat"
+    ],
+    "preamble.js@368:9922-9943": [
+        "DOMHTMLElement"
+    ],
+    "preamble.js@377:10132-10151": [
+        "loadFile"
+    ],
+    "preamble.js@452:12287-12300": [
+        "noteURL"
+    ],
+    "preamble.js@453:12304-12323": [
+        "xhr_orsc_handler"
+    ],
+    "preamble.js@94:2534-2582": [
+        "Node_prototype_insertBefore",
+        "insertBefore"
+    ],
+    "preamble.js@97:2673-2716": [
+        "replace",
+        "String_prototype_replace"
+    ],
+    "preamble.js@160:4575-4608": [
+        "DOMHTMLGenericElement"
+    ],
+    "prologue.js@255:6395-6420": [
+        "main.js@220:6038-6101"
+    ],
+    "preamble.js@66:1761-1778": [
+        "getIndex"
+    ],
+    "prologue.js@186:4902-4920": [
+        "Location_to_string",
+        "toString",
+        "Function_prototype_toString",
+        "Array_prototype_toString",
+        "String_prototype_toString",
+        "Number_prototype_toString"
+    ],
+    "prologue.js@186:4887-4922": [
+        "Array_prototype_concat"
+    ],
+    "prologue.js@187:4939-4965": [
+        "Array_prototype_concat"
+    ],
+    "transform.js@216:5831-5846": [
+        "Math_sin"
+    ],
+    "transform.js@216:5848-5863": [
+        "Math_cos"
+    ],
+    "transform.js@218:5871-5917": [
+        "transform.js@1:3-277"
+    ],
+    "transform.js@219:5923-5968": [
+        "transform.js@10:282-496"
+    ],
+    "transform.js@220:5974-6019": [
+        "transform.js@10:282-496"
+    ],
+    "transform.js@221:6025-6070": [
+        "transform.js@10:282-496"
+    ],
+    "transform.js@225:6133-6182": [
+        "transform.js@10:282-496"
+    ],
+    "transform.js@230:6258-6307": [
+        "transform.js@1:3-277"
+    ],
+    "preamble.js@289:7775-7789": [
+        "DOMNode"
+    ],
+    "preamble.js@228:6153-6166": [
+        "noteURL"
+    ],
+    "preamble.js@382:10293-10323": [
+        "CanvasRenderingContext2D"
+    ],
+    "preamble.js@246:6789-6809": [
+        "CSS2Properties"
+    ],
+    "preamble.js@42:1246-1264": [
+        "checkAndIncrease"
+    ],
+    "main.js@21:335-371": [
+        "design.js@1:0-28997"
+    ],
+    "main.js@22:374-430": [
+        "transform.js@159:4421-4738"
+    ],
+    "main.js@23:433-622": [
+        "transform.js@139:3921-4111"
+    ],
+    "main.js@24:625-689": [
+        "transform.js@139:3921-4111"
+    ],
+    "main.js@30:765-785": [
+        "Window_prototype_setInterval"
+    ],
+    "preamble.js@237:6436-6440": [
+        "main.js@122:3330-6035"
+    ],
+    "prologue.js@386:9829-9853": [
+        "String_prototype_substring"
+    ],
+    "preamble.js@56:1532-1546": [
+        "getIndex"
+    ],
+    "prologue.js@303:7565-7605": [
+        "Function_prototype_call"
+    ],
+    "preamble.js@103:2906-2935": [
+        "add"
+    ],
+    "prologue.js@309:7736-7776": [
+        "Function_prototype_call"
+    ],
+    "preamble.js@265:7210-7224": [
+        "Location"
+    ],
+    "preamble.js@268:7275-7296": [
+        "DOMHTMLDocument"
+    ],
+    "preamble.js@271:7343-7358": [
+        "DOMWindow"
+    ],
+    "preamble.js@284:7636-7649": [
+        "DOJOObj"
+    ],
+    "prologue.js@608:14942-14952": [
+        "Date"
+    ],
+    "prologue.js@608:14942-14962": [
+        "valueOf",
+        "stringValueOf"
+    ],
+    "preamble.js@140:3959-3973": [
+        "DOMNode"
+    ],
+    "transform.js@164:4567-4592": [
+        "transform.js@139:3921-4111"
+    ],
+    "transform.js@167:4655-4685": [
+        "transform.js@131:3759-3909"
+    ],
+    "transform.js@170:4706-4732": [
+        "transform.js@139:3921-4111"
+    ],
+    "transform.js@197:5376-5408": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@198:5414-5446": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@199:5452-5484": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@200:5490-5522": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@204:5585-5621": [
+        "transform.js@109:2872-3595"
+    ],
+    "transform.js@209:5696-5731": [
+        "transform.js@109:2872-3595"
+    ],
+    "main.js@124:3363-3397": [
+        "Document_prototype_getElementById"
+    ],
+    "main.js@127:3439-3462": [
+        "preamble.js@10273"
+    ],
+    "main.js@131:3489-3516": [
+        "CanvasRenderingContext2D_prototype_clearRect"
+    ],
+    "main.js@137:3600-3626": [
+        "CanvasRenderingContext2D_prototype_fillRect"
+    ],
+    "main.js@147:3766-3829": [
+        "transform.js@53:1509-2863"
+    ],
+    "main.js@148:3851-3910": [
+        "transform.js@53:1509-2863"
+    ],
+    "main.js@149:3933-3996": [
+        "transform.js@53:1509-2863"
+    ],
+    "main.js@150:4019-4078": [
+        "transform.js@53:1509-2863"
+    ],
+    "main.js@156:4133-4192": [
+        "transform.js@195:5309-5748"
+    ],
+    "main.js@157:4197-4258": [
+        "transform.js@195:5309-5748"
+    ],
+    "main.js@174:4513-4552": [
+        "Math_pow"
+    ],
+    "main.js@174:4555-4594": [
+        "Math_pow"
+    ],
+    "main.js@174:4597-4636": [
+        "Math_pow"
+    ],
+    "main.js@190:5198-5233": [
+        "Array_prototype_sort"
+    ],
+    "main.js@199:5446-5495": [
+        "transform.js@274:7477-7693"
+    ],
+    "main.js@205:5549-5564": [
+        "CanvasRenderingContext2D_prototype_beginPath"
+    ],
+    "main.js@209:5672-5791": [
+        "CanvasRenderingContext2D_prototype_moveTo"
+    ],
+    "main.js@211:5854-5973": [
+        "CanvasRenderingContext2D_prototype_lineTo"
+    ],
+    "main.js@212:5978-5993": [
+        "CanvasRenderingContext2D_prototype_closePath"
+    ],
+    "main.js@213:5998-6008": [
+        "CanvasRenderingContext2D_prototype_fill"
+    ],
+    "main.js@214:6013-6025": [
+        "CanvasRenderingContext2D_prototype_stroke"
+    ],
+    "preamble.js@461:12449-12468": [
+        "xhr_orsc_handler"
+    ],
+    "preamble.js@462:12472-12498": [
+        "notePostParameters"
+    ],
+    "transform.js@236:6406-6421": [
+        "Math_sin"
+    ],
+    "transform.js@236:6423-6438": [
+        "Math_cos"
+    ],
+    "transform.js@238:6446-6492": [
+        "transform.js@18:501-777"
+    ],
+    "transform.js@239:6498-6543": [
+        "transform.js@27:782-996"
+    ],
+    "transform.js@240:6549-6594": [
+        "transform.js@27:782-996"
+    ],
+    "transform.js@241:6600-6645": [
+        "transform.js@27:782-996"
+    ],
+    "transform.js@245:6708-6757": [
+        "transform.js@27:782-996"
+    ],
+    "transform.js@250:6832-6881": [
+        "transform.js@18:501-777"
+    ]
+}
