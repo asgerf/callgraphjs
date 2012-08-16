@@ -1,0 +1,345 @@
+Command: benchmarks --resolve-all --iterate fix
+
+>>>  3dmodel
+Function coverage (non-library): 16/29 (55.17%)
+average precision: 0.9333
+average recall: 1.0000
+Call-graph size           : 127
+Escaping functions        : 0 / 29 (0.00%)
+Unresolved callsites      : 0 / 109 (0.00%)
+Maximum number of callees : 2
+Callee distribution       :
+                            91 (83.49%) have 1 callees
+                            18 (16.51%) have 2 callees
+Callee distribution without native targets :
+                            46 (42.20%) have 0 callees
+                            63 (57.80%) have 1 callees
+Single-callee call sites  :
+                            65 (100.00%) are correct
+                            0 (0.00%) are incorrect
+                            26 are unused
+
+>>>  beslimed
+Function coverage (non-library): 37/43 (86.05%)
+average precision: 0.6919
+average recall: 0.8518
+Call-graph size           : 14463
+Escaping functions        : 0 / 703 (0.00%)
+Unresolved callsites      : 0 / 2017 (0.00%)
+Maximum number of callees : 121
+Callee distribution       :
+                            106 (5.26%) have 0 callees
+                            1077 (53.40%) have 1 callees
+                            314 (15.57%) have 2 callees
+                            170 (8.43%) have 3 callees
+                            105 (5.21%) have 4 callees
+                            45 (2.23%) have 5 callees
+                            17 (0.84%) have 9 callees
+                            38 (1.88%) have 13 callees
+                            40 (1.98%) have 28 callees
+                            59 (2.93%) have 92 callees
+                            4 (0.20%) have 93 callees
+                            36 (1.78%) have 94 callees
+                            1 (0.05%) have 95 callees
+                            2 (0.10%) have 97 callees
+                            3 (0.15%) have 121 callees
+Callee distribution without native targets :
+                            407 (20.18%) have 0 callees
+                            997 (49.43%) have 1 callees
+                            253 (12.54%) have 2 callees
+                            126 (6.25%) have 3 callees
+                            30 (1.49%) have 4 callees
+                            7 (0.35%) have 5 callees
+                            17 (0.84%) have 9 callees
+                            38 (1.88%) have 13 callees
+                            40 (1.98%) have 20 callees
+                            59 (2.93%) have 78 callees
+                            40 (1.98%) have 79 callees
+                            3 (0.15%) have 80 callees
+Single-callee call sites  :
+                            411 (97.86%) are correct
+                            9 (2.14%) are incorrect
+                            657 are unused
+
+>>>  coolclock
+Function coverage (non-library): 13/16 (81.25%)
+average precision: 0.8828
+average recall: 0.9969
+Call-graph size           : 6447
+Escaping functions        : 0 / 548 (0.00%)
+Unresolved callsites      : 0 / 1747 (0.00%)
+Maximum number of callees : 120
+Callee distribution       :
+                            56 (3.21%) have 0 callees
+                            1228 (70.29%) have 1 callees
+                            292 (16.71%) have 2 callees
+                            38 (2.18%) have 3 callees
+                            38 (2.18%) have 4 callees
+                            17 (0.97%) have 5 callees
+                            18 (1.03%) have 6 callees
+                            11 (0.63%) have 7 callees
+                            11 (0.63%) have 15 callees
+                            27 (1.55%) have 102 callees
+                            1 (0.06%) have 103 callees
+                            6 (0.34%) have 104 callees
+                            3 (0.17%) have 111 callees
+                            1 (0.06%) have 120 callees
+Callee distribution without native targets :
+                            781 (44.71%) have 0 callees
+                            626 (35.83%) have 1 callees
+                            207 (11.85%) have 2 callees
+                            48 (2.75%) have 3 callees
+                            8 (0.46%) have 4 callees
+                            28 (1.60%) have 5 callees
+                            1 (0.06%) have 7 callees
+                            11 (0.63%) have 15 callees
+                            27 (1.55%) have 91 callees
+                            1 (0.06%) have 92 callees
+                            6 (0.34%) have 93 callees
+                            3 (0.17%) have 100 callees
+Single-callee call sites  :
+                            258 (100.00%) are correct
+                            0 (0.00%) are incorrect
+                            970 are unused
+
+>>>  flotr
+Function coverage (non-library): 149/216 (68.98%)
+average precision: 0.6633
+average recall: 0.9283
+Call-graph size           : 44572
+Escaping functions        : 0 / 743 (0.00%)
+Unresolved callsites      : 0 / 2671 (0.00%)
+Maximum number of callees : 153
+Callee distribution       :
+                            61 (2.28%) have 0 callees
+                            1584 (59.30%) have 1 callees
+                            450 (16.85%) have 2 callees
+                            171 (6.40%) have 3 callees
+                            28 (1.05%) have 4 callees
+                            57 (2.13%) have 5 callees
+                            25 (0.94%) have 6 callees
+                            12 (0.45%) have 7 callees
+                            6 (0.22%) have 8 callees
+                            3 (0.11%) have 10 callees
+                            28 (1.05%) have 124 callees
+                            244 (9.14%) have 152 callees
+                            2 (0.07%) have 153 callees
+Callee distribution without native targets :
+                            788 (29.50%) have 0 callees
+                            1217 (45.56%) have 1 callees
+                            212 (7.94%) have 2 callees
+                            98 (3.67%) have 3 callees
+                            52 (1.95%) have 4 callees
+                            40 (1.50%) have 5 callees
+                            5 (0.19%) have 6 callees
+                            7 (0.26%) have 7 callees
+                            6 (0.22%) have 8 callees
+                            244 (9.14%) have 144 callees
+                            2 (0.07%) have 145 callees
+Single-callee call sites  :
+                            753 (93.31%) are correct
+                            54 (6.69%) are incorrect
+                            777 are unused
+
+>>>  fullcalendar-1.5.3
+Function coverage (non-library): 272/384 (70.83%)
+average precision: 0.8178
+average recall: 0.9404
+Call-graph size           : 31291
+Escaping functions        : 0 / 1089 (0.00%)
+Unresolved callsites      : 0 / 4083 (0.00%)
+Maximum number of callees : 196
+Callee distribution       :
+                            221 (5.41%) have 0 callees
+                            2608 (63.87%) have 1 callees
+                            810 (19.84%) have 2 callees
+                            62 (1.52%) have 3 callees
+                            59 (1.45%) have 4 callees
+                            112 (2.74%) have 5 callees
+                            38 (0.93%) have 6 callees
+                            3 (0.07%) have 7 callees
+                            10 (0.24%) have 9 callees
+                            1 (0.02%) have 11 callees
+                            18 (0.44%) have 15 callees
+                            10 (0.24%) have 17 callees
+                            1 (0.02%) have 120 callees
+                            85 (2.08%) have 193 callees
+                            12 (0.29%) have 194 callees
+                            30 (0.73%) have 195 callees
+                            3 (0.07%) have 196 callees
+Callee distribution without native targets :
+                            1255 (30.74%) have 0 callees
+                            1847 (45.24%) have 1 callees
+                            586 (14.35%) have 2 callees
+                            32 (0.78%) have 3 callees
+                            161 (3.94%) have 4 callees
+                            28 (0.69%) have 5 callees
+                            2 (0.05%) have 6 callees
+                            13 (0.32%) have 7 callees
+                            1 (0.02%) have 11 callees
+                            18 (0.44%) have 15 callees
+                            10 (0.24%) have 16 callees
+                            85 (2.08%) have 180 callees
+                            12 (0.29%) have 181 callees
+                            30 (0.73%) have 182 callees
+                            3 (0.07%) have 183 callees
+Single-callee call sites  :
+                            1303 (98.64%) are correct
+                            18 (1.36%) are incorrect
+                            1287 are unused
+
+>>>  google_pacman
+Function coverage (non-library): 121/152 (79.61%)
+average precision: 0.9394
+average recall: 1.0000
+Call-graph size           : 652
+Escaping functions        : 0 / 152 (0.00%)
+Unresolved callsites      : 0 / 485 (0.00%)
+Maximum number of callees : 120
+Callee distribution       :
+                            11 (2.27%) have 0 callees
+                            423 (87.22%) have 1 callees
+                            41 (8.45%) have 2 callees
+                            9 (1.86%) have 3 callees
+                            1 (0.21%) have 120 callees
+Callee distribution without native targets :
+                            152 (31.34%) have 0 callees
+                            333 (68.66%) have 1 callees
+Single-callee call sites  :
+                            273 (100.00%) are correct
+                            0 (0.00%) are incorrect
+                            150 are unused
+
+>>>  htmledit
+Function coverage (non-library): 31/50 (62.00%)
+average precision: 0.7976
+average recall: 0.9435
+Call-graph size           : 3112
+Escaping functions        : 0 / 389 (0.00%)
+Unresolved callsites      : 0 / 1253 (0.00%)
+Maximum number of callees : 120
+Callee distribution       :
+                            55 (4.39%) have 0 callees
+                            821 (65.52%) have 1 callees
+                            270 (21.55%) have 2 callees
+                            32 (2.55%) have 3 callees
+                            10 (0.80%) have 4 callees
+                            35 (2.79%) have 5 callees
+                            27 (2.15%) have 40 callees
+                            3 (0.24%) have 120 callees
+Callee distribution without native targets :
+                            540 (43.10%) have 0 callees
+                            446 (35.59%) have 1 callees
+                            198 (15.80%) have 2 callees
+                            6 (0.48%) have 3 callees
+                            36 (2.87%) have 4 callees
+                            27 (2.15%) have 32 callees
+Single-callee call sites  :
+                            355 (99.16%) are correct
+                            3 (0.84%) are incorrect
+                            463 are unused
+
+>>>  markitup
+Function coverage (non-library): 35/49 (71.43%)
+average precision: 0.8159
+average recall: 0.9553
+Call-graph size           : 5343
+Escaping functions        : 0 / 557 (0.00%)
+Unresolved callsites      : 0 / 1849 (0.00%)
+Maximum number of callees : 120
+Callee distribution       :
+                            76 (4.11%) have 0 callees
+                            1255 (67.87%) have 1 callees
+                            348 (18.82%) have 2 callees
+                            41 (2.22%) have 3 callees
+                            69 (3.73%) have 4 callees
+                            18 (0.97%) have 5 callees
+                            1 (0.05%) have 7 callees
+                            12 (0.65%) have 15 callees
+                            19 (1.03%) have 91 callees
+                            5 (0.27%) have 93 callees
+                            3 (0.16%) have 94 callees
+                            2 (0.11%) have 120 callees
+Callee distribution without native targets :
+                            763 (41.27%) have 0 callees
+                            696 (37.64%) have 1 callees
+                            274 (14.82%) have 2 callees
+                            66 (3.57%) have 3 callees
+                            8 (0.43%) have 4 callees
+                            2 (0.11%) have 5 callees
+                            1 (0.05%) have 7 callees
+                            12 (0.65%) have 15 callees
+                            19 (1.03%) have 82 callees
+                            5 (0.27%) have 84 callees
+                            3 (0.16%) have 85 callees
+Single-callee call sites  :
+                            287 (98.97%) are correct
+                            3 (1.03%) are incorrect
+                            965 are unused
+
+>>>  pdfjs
+Function coverage (non-library): 654/965 (67.77%)
+average precision: 0.7659
+average recall: 0.9991
+Call-graph size           : 8270
+Escaping functions        : 0 / 965 (0.00%)
+Unresolved callsites      : 0 / 3570 (0.00%)
+Maximum number of callees : 121
+Callee distribution       :
+                            29 (0.81%) have 0 callees
+                            2302 (64.48%) have 1 callees
+                            621 (17.39%) have 2 callees
+                            190 (5.32%) have 3 callees
+                            88 (2.46%) have 4 callees
+                            26 (0.73%) have 5 callees
+                            1 (0.03%) have 6 callees
+                            25 (0.70%) have 7 callees
+                            25 (0.70%) have 8 callees
+                            232 (6.50%) have 9 callees
+                            16 (0.45%) have 10 callees
+                            7 (0.20%) have 11 callees
+                            8 (0.22%) have 121 callees
+Callee distribution without native targets :
+                            738 (20.67%) have 0 callees
+                            2082 (58.32%) have 1 callees
+                            270 (7.56%) have 2 callees
+                            122 (3.42%) have 3 callees
+                            67 (1.88%) have 4 callees
+                            35 (0.98%) have 5 callees
+                            31 (0.87%) have 7 callees
+                            218 (6.11%) have 9 callees
+                            7 (0.20%) have 11 callees
+Single-callee call sites  :
+                            1491 (100.00%) are correct
+                            0 (0.00%) are incorrect
+                            811 are unused
+
+>>>  pong
+Function coverage (non-library): 27/36 (75.00%)
+average precision: 0.7727
+average recall: 0.9335
+Call-graph size           : 3263
+Escaping functions        : 0 / 375 (0.00%)
+Unresolved callsites      : 0 / 1324 (0.00%)
+Maximum number of callees : 120
+Callee distribution       :
+                            31 (2.34%) have 0 callees
+                            889 (67.15%) have 1 callees
+                            269 (20.32%) have 2 callees
+                            50 (3.78%) have 3 callees
+                            22 (1.66%) have 4 callees
+                            34 (2.57%) have 5 callees
+                            27 (2.04%) have 44 callees
+                            2 (0.15%) have 120 callees
+Callee distribution without native targets :
+                            559 (42.22%) have 0 callees
+                            480 (36.25%) have 1 callees
+                            211 (15.94%) have 2 callees
+                            12 (0.91%) have 3 callees
+                            35 (2.64%) have 4 callees
+                            27 (2.04%) have 36 callees
+Single-callee call sites  :
+                            329 (94.00%) are correct
+                            21 (6.00%) are incorrect
+                            539 are unused
+
