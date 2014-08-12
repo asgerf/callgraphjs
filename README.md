@@ -7,9 +7,9 @@ These are the supporting materials for the ICSE 2013 submission *Efficient Const
 
 * call graphs: see directory `callgraphs`; for every subject program, there are three JSON files:
 
-  1. `dynamic-cg.json`: this is the dynamic call graph
-  2. `optimistic-cg.json`: this is the call graph produced by the optimistic analysis
-  3. `pessimistic-cg.json`: this is the call graph produced by the pessimistic analysis
+  1. `dynamic-cg.fixed.json`: this is the dynamic call graph
+  2. `optimistic-cg.fixed.json`: this is the call graph produced by the optimistic analysis
+  3. `pessimistic-cg.fixed.json`: this is the call graph produced by the pessimistic analysis
 
   The call graphs are encoded in a very simple JSON format: the property names of the root object are call sites, while the property values are arrays listing all call targets.
 
@@ -22,3 +22,25 @@ These are the supporting materials for the ICSE 2013 submission *Efficient Const
 * summaries: `summary-pessimistic.txt` and `summary-optimistic.txt` summarize several other bits of data about running the respective analyses on all subject programs; in particular, they list function coverage for the dynamic call graphs, precision and recall, and callee distribution
 
 * analysis source code: will be made available once IP issues have been resolved
+
+Tools
+=====
+
+Two tools are included in the repository, `convert.js` and `evaluate.js`. To use them, install node.js and run `npm install` from the repository folder.
+
+convert.js
+---------
+
+The call graphs originally uploaded here had inconsistent offsets, making the dynamic call graphs incomparable to be static ones. In an attempt to recover the data, the tool `convert.js` uses a best-effort algorithm to align the offsets, so the evaluation can be repeated. The original call graphs with broken offsets are retained in the `.broken.json` files. The changes can be examined like so:
+
+    ./convert.js callgraphs/markitup/dynamic-cg.broken.json --pretty --summary
+
+Moreover, the wrong files were uploaded altogether for the optimistic call graphs. These have been regenerated and uploaded again.
+
+evaluate.js
+-----------
+
+`evaluate.js` computes precision and recall for a given benchmark. For example:
+
+  ./evaluate.js callgraphs/markitup
+
