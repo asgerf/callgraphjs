@@ -1,0 +1,10 @@
+for file in callgraphs/*/{dynamic-cg,optimistic-cg,pessimistic-cg}.json
+do
+	if [ -f $file ]
+	then
+		echo $file
+		dest=${file%.json}.fixed.json
+		./convert.js $file > $dest
+		mv $file ${file%.json}.broken.json
+	fi
+done
