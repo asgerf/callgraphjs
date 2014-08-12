@@ -21,26 +21,38 @@ These are the supporting materials for the ICSE 2013 submission *Efficient Const
 
 * summaries: `summary-pessimistic.txt` and `summary-optimistic.txt` summarize several other bits of data about running the respective analyses on all subject programs; in particular, they list function coverage for the dynamic call graphs, precision and recall, and callee distribution
 
-* analysis source code: will be made available once IP issues have been resolved
+Inconsistency
+=============
+
+The call graphs originally uploaded here had inconsistent offsets in the callsite and callee IDs, making the dynamic call graphs incomparable to the static ones. The offsets have been forcefully aligned by a best-effort algorithm (see below).
+
+Moreover, the wrong files were uploaded altogether for the optimistic call graphs. These have been regenerated and uploaded again.
+
+This makes the evaluation repeatable with numbers that are close to those in the paper, although we are not able to get the exact same numbers anymore.
+
+We have not been able to determine the precise reason for the inconsistency. It is likely due to our attempt to work around a [bug in esprima](https://code.google.com/p/esprima/issues/detail?id=309), causing the dynamic analysis to use different offsets than the static analysis.
 
 Tools
 =====
 
-Two tools are included in the repository, `convert.js` and `evaluate.js`. To use them, install node.js and run `npm install` from the repository folder.
+Two tools are included in the repository, `convert.js` and `evaluate.js`.
 
-convert.js
----------
-
-The call graphs originally uploaded here had inconsistent offsets, making the dynamic call graphs incomparable to be static ones. In an attempt to recover the data, the tool `convert.js` uses a best-effort algorithm to align the offsets, so the evaluation can be repeated. The original call graphs with broken offsets are retained in the `.broken.json` files. The changes can be examined like so:
-
-    ./convert.js callgraphs/markitup/dynamic-cg.broken.json --pretty --summary
-
-Moreover, the wrong files were uploaded altogether for the optimistic call graphs. These have been regenerated and uploaded again.
+To use them, install [node.js](http://nodejs.org) and run `npm install` from the repository folder.
 
 evaluate.js
 -----------
 
 `evaluate.js` computes precision and recall for a given benchmark. For example:
 
-  ./evaluate.js callgraphs/markitup
+    ./evaluate.js callgraphs/markitup
+
+convert.js
+---------
+
+`convert.js` was used to align offsets in the dynamic and static call graphs. It uses line numbers and the relative ordering of offsets within a line to match IDs.
+
+For example, to examine the conversion for `markitup`'s dynamic call graph, run:
+
+    ./convert.js callgraphs/markitup/dynamic-cg.broken.json --pretty --summary
+
 
